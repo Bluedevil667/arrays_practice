@@ -12,3 +12,12 @@ puts array_3[0]
 puts array_4[3]
 
 #When calling on these arrays, the first item in each array will always be 0, in order to call on the 4th item in the array, you would need to actually write `3` in the code in order to get the desired reponse.
+
+#This array method is used to add arrays together, we can use them to add set arrays together, or to create new arrays using the set ones.
+
+a = [1,2,3]
+
+c = a + [4,5]
+
+puts a
+puts c
